@@ -1,39 +1,32 @@
-Autenticação com Next.js e JWT
+# Autenticação com Next.js e JWT
 Este projeto é um sistema de autenticação utilizando Next.js e tokens JWT para gerenciar sessões de usuários.
 
-Requisitos
+## Requisitos
 Node.js >= 14
 npm >= 6
 Instalação
 Clone o repositório:
-
-bash
-Copiar código
+```
 git clone https://github.com/evertonrocha2/nextjs-login.git
 cd nextjs-login
-Instale as dependências:
+```
 
-Execute o seguinte comando para instalar todos os pacotes necessários:
-
-bash
-Copiar código
-npm i
-Configuração do ambiente:
-
+### Instale as dependências:
+```
+npm install
+```
+### Configuração do Ambiente
 Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
-
-env
-Copiar código
+```
 JWT_SECRET=sua_chave_secreta
-JWT_SECRET: A chave secreta usada para assinar e verificar tokens JWT. Certifique-se de usar uma chave forte e secreta.
-Rodando o Projeto
+```
+Nota: JWT_SECRET é a chave secreta usada para assinar e verificar tokens JWT. Certifique-se de usar uma chave forte e secreta.
+
+### Rodando o Projeto
 Inicie o servidor de desenvolvimento:
-
-Após configurar o ambiente e instalar as dependências, execute o comando abaixo para iniciar o servidor:
-
-bash
-Copiar código
+```
 npm run dev
+```
 O projeto estará disponível em http://localhost:3000.
 
 Scripts Disponíveis
