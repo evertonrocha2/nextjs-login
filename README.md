@@ -1,4 +1,5 @@
 Autenticação com Next.js e JWT
+
 Este projeto é um sistema de autenticação utilizando Next.js e tokens JWT para gerenciar sessões de usuários.
 
 Requisitos
