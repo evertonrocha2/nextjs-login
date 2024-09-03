@@ -45,5 +45,4 @@ pages/: Contém as páginas da aplicação, incluindo as rotas de login, registr
 components/: Componentes reutilizáveis como formulários, botões, etc.
 
 Contribuindo
-
 Sinta-se à vontade para abrir issues e pull requests. Feedbacks e sugestões são sempre bem-vindos!
