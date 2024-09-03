@@ -31,14 +31,14 @@ npm run dev
 ```
 O projeto estará disponível em http://localhost:3000.
 
-Scripts Disponíveis
+## Scripts Disponíveis
 npm run dev: Inicia o servidor de desenvolvimento.
 
 npm run build: Compila o projeto para produção.
 
 npm start: Inicia o servidor em modo de produção após a compilação.
 
-Estrutura do Projeto
+### Estrutura do Projeto
 
 pages/: Contém as páginas da aplicação, incluindo as rotas de login, registro e áreas protegidas.
 
