@@ -4,7 +4,9 @@ Este projeto é um sistema de autenticação utilizando Next.js e tokens JWT par
 ## Requisitos
 Node.js >= 14
 npm >= 6
+
 Instalação
+
 Clone o repositório:
 ```
 git clone https://github.com/evertonrocha2/nextjs-login.git
