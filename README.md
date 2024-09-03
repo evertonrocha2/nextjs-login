@@ -10,9 +10,11 @@ npm >= 6
 Instalação
 Clone o repositório:
 
-bash
+bash```
 git clone https://github.com/evertonrocha2/nextjs-login.git
 cd nextjs-login
+``
+
 Instale as dependências:
 
 Execute o seguinte comando para instalar todos os pacotes necessários:
