@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Autenticação com Next.js e JWT
+Este projeto é um sistema de autenticação utilizando Next.js e tokens JWT para gerenciar sessões de usuários.
 
-## Getting Started
+Requisitos
+Node.js >= 14
+npm >= 6
+Instalação
+Clone o repositório:
 
-First, run the development server:
+bash
+git clone https://github.com/evertonrocha2/nextjs-login.git
+cd nextjs-login
+Instale as dependências:
 
-```bash
+Execute o seguinte comando para instalar todos os pacotes necessários:
+
+bash
+npm i
+Configuração do ambiente:
+
+Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+
+env
+JWT_SECRET=sua_chave_secreta
+JWT_SECRET: A chave secreta usada para assinar e verificar tokens JWT. Certifique-se de usar uma chave forte e secreta.
+Rodando o Projeto
+Inicie o servidor de desenvolvimento:
+
+Após configurar o ambiente e instalar as dependências, execute o comando abaixo para iniciar o servidor:
+
+bash
+Copiar código
 npm run dev
-# or
-yarn dev
-```
+O projeto estará disponível em http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Scripts Disponíveis
+npm run dev: Inicia o servidor de desenvolvimento.
+npm run build: Compila o projeto para produção.
+npm start: Inicia o servidor em modo de produção após a compilação.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Estrutura do Projeto
+pages/: Contém as páginas da aplicação, incluindo as rotas de login, registro e áreas protegidas.
+components/: Componentes reutilizáveis como formulários, botões, etc.
+utils/: Funções utilitárias, como a criação e verificação de tokens JWT.
+middleware/: Middlewares para proteger rotas e verificar tokens JWT.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Contribuindo
+Sinta-se à vontade para abrir issues e pull requests. Feedbacks e sugestões são sempre bem-vindos!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
